@@ -1,7 +1,7 @@
 {
     "chosingAlgorithm": "Specific Items will post ONLY what you tell it to, same ad every time. Smart algo generates an ad. You can ONLY enable one, specific or smart. For support join https://discord.gg/M58R3PR9Wv",
     "specificItems": {
-        "enabled": false,
+        "enabled": true,
         "sendingItems": [
             "53039427",
             "71597060",
@@ -14,30 +14,27 @@
         ],
         "tags": [
             "upgrade",
-            "any",
-            "adds"
+            "any"
         ],
         "_tagOptions": ["adds", "upgrade", "downgrade", "any", "wishlist", "demand", "rares", "rap", "robux", "projecteds"]
     },
     "smartAlgo": {
-        "enabled": true,
-        "upgrade": true,
+        "enabled": false,
+        "upgrade": false,
         "downgrade": false,
-        "any": false,
+        "any": true,
         "minSendItems": 3,
         "maxSendItems": 4,
-        "minReceiveItems": 1,
-        "maxReceiveItems": 1,
+        "minReceiveItems": 2,
+        "maxReceiveItems": 4,
         "blacklisted": [
-            "878899787",
-            "628771505",
-            "84012460",
-            "6550129"
+            "BLACKLISTED_ITEM_ID_1",
+            "BLACKLISTED_ITEM_ID_2"
         ],
-        "minTotalSend": 200000,
+        "minTotalSend": 30000,
         "maxTotalSend": 1000000,
-        "minTotalRequestValue": 190000,
-        "maxTotalRequestValue": 270000,
+        "minTotalRequestValue": 30000,
+        "maxTotalRequestValue": 1000000000,
         "minUpgPercent": 7,
         "maxUpgPercent": 12,
         "minDgPercent": 0,
@@ -46,8 +43,7 @@
         "minItemValueSend": 5000,
         "minItemValueRequest": 5000,
         "tags": [
-            "adds",
-            "upgrade"
+            "adds"
         ],
         "_tagOptions": ["adds", "upgrade", "downgrade", "any", "wishlist", "demand", "rares", "rap", "robux", "projecteds"]
     }
