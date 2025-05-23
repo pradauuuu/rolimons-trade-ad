@@ -3,35 +3,41 @@
     "specificItems": {
         "enabled": false,
         "sendingItems": [
-            "ITEM_ID_1",
-            "ITEM_ID_2"
+            "53039427",
+            "71597060",
+            "1076571965",
+            "65417235"
         ],
         "receivingItems": [
             "ITEM_ID_3",
             "ITEM_ID_4"
         ],
         "tags": [
-            "exampleTag"
+            "upgrade",
+            "any",
+            "adds"
         ],
         "_tagOptions": ["adds", "upgrade", "downgrade", "any", "wishlist", "demand", "rares", "rap", "robux", "projecteds"]
     },
     "smartAlgo": {
         "enabled": true,
-        "upgrade": false,
+        "upgrade": true,
         "downgrade": false,
         "any": true,
         "minSendItems": 3,
         "maxSendItems": 4,
-        "minReceiveItems": 2,
-        "maxReceiveItems": 4,
+        "minReceiveItems": 1,
+        "maxReceiveItems": 1,
         "blacklisted": [
-            "BLACKLISTED_ITEM_ID_1",
-            "BLACKLISTED_ITEM_ID_2"
+            "878899787",
+            "628771505",
+            "84012460",
+            "6550129"
         ],
-        "minTotalSend": 30000,
+        "minTotalSend": 200000,
         "maxTotalSend": 1000000,
-        "minTotalRequestValue": 30000,
-        "maxTotalRequestValue": 1000000000,
+        "minTotalRequestValue": 190000,
+        "maxTotalRequestValue": 270000,
         "minUpgPercent": 7,
         "maxUpgPercent": 12,
         "minDgPercent": 0,
@@ -40,7 +46,8 @@
         "minItemValueSend": 5000,
         "minItemValueRequest": 5000,
         "tags": [
-            "adds"
+            "adds",
+            "upgrade"
         ],
         "_tagOptions": ["adds", "upgrade", "downgrade", "any", "wishlist", "demand", "rares", "rap", "robux", "projecteds"]
     }
