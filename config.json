@@ -22,8 +22,8 @@
         "any": false,
         "minSendItems": 3,
         "maxSendItems": 4,
-        "minReceiveItems": 2,
-        "maxReceiveItems": 4,
+        "minReceiveItems": 1,
+        "maxReceiveItems": 2,
         "blacklisted": [
             "BLACKLISTED_ITEM_ID_1",
             "BLACKLISTED_ITEM_ID_2"
@@ -32,15 +32,16 @@
         "maxTotalSend": 1000000,
         "minTotalRequestValue": 30000,
         "maxTotalRequestValue": 1000000000,
-        "minUpgPercent": 7,
-        "maxUpgPercent": 12,
+        "minUpgPercent": 0,
+        "maxUpgPercent": 20,
         "minDgPercent": 0,
         "maxDgPercent": 4,
-        "minDemand": 2,
+        "minDemand": 0,
         "minItemValueSend": 5000,
-        "minItemValueRequest": 5000,
+        "minItemValueRequest": 170000,
         "tags": [
-            "adds"
+            "adds",
+            "upgrade"
         ],
         "_tagOptions": ["adds", "upgrade", "downgrade", "any", "wishlist", "demand", "rares", "rap", "robux", "projecteds"]
     }
