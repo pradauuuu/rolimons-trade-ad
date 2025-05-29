@@ -19,7 +19,7 @@
         "_tagOptions": ["adds", "upgrade", "downgrade", "any", "wishlist", "demand", "rares", "rap", "robux", "projecteds"]
     },
     "smartAlgo": {
-        "enabled": true,
+        "enabled": false,
         "upgrade": false,
         "downgrade": true,
         "any": false,
